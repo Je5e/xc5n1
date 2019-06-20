@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.Android", "NotesApp\NotesApp.Android\NotesApp.Android.csproj", "{1BC89EE7-4570-4038-BD10-FBC163B08191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp", "NotesApp\NotesApp\NotesApp.csproj", "{511CC706-1447-4594-BD4C-6C3CD2AE7CED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC89EE7-4570-4038-BD10-FBC163B08191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC89EE7-4570-4038-BD10-FBC163B08191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC89EE7-4570-4038-BD10-FBC163B08191}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1BC89EE7-4570-4038-BD10-FBC163B08191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC89EE7-4570-4038-BD10-FBC163B08191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC89EE7-4570-4038-BD10-FBC163B08191}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{511CC706-1447-4594-BD4C-6C3CD2AE7CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511CC706-1447-4594-BD4C-6C3CD2AE7CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511CC706-1447-4594-BD4C-6C3CD2AE7CED}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{511CC706-1447-4594-BD4C-6C3CD2AE7CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511CC706-1447-4594-BD4C-6C3CD2AE7CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511CC706-1447-4594-BD4C-6C3CD2AE7CED}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2734579-CF70-45CC-9C6A-FF2EAF150AE2}
+	EndGlobalSection
+EndGlobal
