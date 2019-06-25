@@ -33,14 +33,14 @@ namespace NotesApp.Models
         public int CreatetNote(Note noteToInsert)
         {
             int Resultado = 0; // ?
-             Resultado = Database.Insert(noteToInsert);
+            Resultado = Database.Insert(noteToInsert);
             return Resultado;
         }
-
         // Para leer todos los registros de la tabla T_Notes
         public List<Note> ReadNotes()
         {
-            return Database.Table<Note>().ToList(); // select * from T_Notes
+            return Database.Table<Note>().ToList(); 
+            // select * from T_Notes
         }
 
         // Para eliminar un registro de la bd
@@ -61,6 +61,8 @@ namespace NotesApp.Models
             return Database.Table<Note>()
                 .Where(n => n.ID == ID).FirstOrDefault(); // select * from T_Clientes where IDCLIENTE=1
         }
+
+        
 
         
     }
