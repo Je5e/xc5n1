@@ -20,20 +20,22 @@ namespace NotesApp
             Note nuevaNota = new Note();
             nuevaNota.Text = EditorNote.Text;
             nuevaNota.Date = DateTime.UtcNow;
+            nuevaNota.ID = 1;
            
             // Guardarlo en la base de datos. CrearNote este método.
             NoteDatabase DataBase = new NoteDatabase
                 (Path.Combine
                 (Environment.GetFolderPath
                 (Environment.SpecialFolder.LocalApplicationData), "Notes.db3"));
-            DataBase.ReadNotes();
-            int Result = DataBase.CreatetNote(nuevaNota);
+           // DataBase.ReadNotes();
+            int Result = DataBase.CreateNote(nuevaNota);
 
             if (Result == 1)
             {
                 DisplayAlert
                     ("Aviso", $"Registro ingreado con éxito. ID:{nuevaNota.ID}", "ok");
             }
+            Navigation.PopAsync();
         }
         void OnDeleteButtonClicked(object sender, EventArgs e)
         {

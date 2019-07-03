@@ -30,7 +30,7 @@ namespace NotesApp.Models
         // CRUD
         // Para agregar una nueva entidad a la bd.
         // Lo hacemos con un método.
-        public int CreatetNote(Note noteToInsert)
+        public int CreateNote(Note noteToInsert)
         {
             int Resultado = 0; // ?
             Resultado = Database.Insert(noteToInsert);

@@ -18,7 +18,7 @@ namespace NotesApp
             // Declarar variable de mis propios tipos.
             NoteDatabase dataBase = new NoteDatabase("");
             // Utilizar Dot Notation para acceder a los miembros de un tipo.
-            dataBase.CreatetNote(new Note());
+            dataBase.CreateNote(new Note());
             
 
 

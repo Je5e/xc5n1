@@ -11,7 +11,7 @@ namespace NotesApp
         {
             InitializeComponent();
 
-            MainPage = new NoteEntryPage();
+            MainPage = new NavigationPage(new NotesPage() );
         }
 
         protected override void OnStart()
